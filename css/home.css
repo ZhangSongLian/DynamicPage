@@ -1,0 +1,593 @@
+
+.main {
+	padding-top: 75px;
+}
+
+.top{ width: 100%;
+    height: 74px;
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    border-bottom: 1px solid #f5f5f5;}
+
+.top .header_nav{ 
+	max-width: 1100px;
+	text-align: center;
+    margin: auto;
+    height: 74px;
+    line-height: 74px;
+    font-size: 16px;
+   }
+.top .header_nav .logo{ 
+/*background:url(../img/logo.png) no-repeat; background-size:100% 100%;*/ 
+	background: red;
+    width: 12%;
+    height: 74px;
+    display: block;
+    float: left;
+	-webkit-transition:all 0.0s linear;
+	-moz-transition:all 0.0s linear;
+	-o-transition:all 0.0s linear;
+	-ms-transition:all 0.0s linear;
+	transition:all 0.0s linear;
+}
+
+.header_nav .menu{width: 65%; float:left; font-size:16px;margin-left: 30px;}
+
+.header_nav .menu li {
+    float: left;
+ 	width: 14%;
+ 	
+}
+
+.header_nav .menu li a.dbt {
+	height: 72px;
+	display:inline-block;
+    display: block;
+   	text-decoration: none;
+    color: gray;
+    overflow: hidden;
+}
+.header_nav .menu li.active a {
+    color: #31c47b;
+}
+
+.header_nav .menu li a.dbt:hover {
+	display:inline-block; 
+	color:#31c47b; 
+	border-bottom: 2px solid #31c47b;
+	text-decoration: none;
+}
+
+ .header_nav .btn_a .btn_div {
+    width: 10%;
+    float: left;
+}
+
+ .header_nav .btn_a .btn_div>a{
+    line-height: 30px;
+    width: 80%;
+    height: 32px;
+    border: 1px solid #30c17c;
+    border-radius: 1px;
+    display: inline-block;
+    color: #30c17c;
+    background: #fff;
+    text-decoration: none;
+}
+
+.menu li .txtk{ 
+	width:100%;
+	height: 250px; 
+	background: #fff;
+	position: absolute;
+	left: 0;
+	top:74px;
+	z-index:99;
+	display: none;
+}
+
+/*轮播图*/
+.lunbo-box .lunbo-pic{
+	width: 100%;
+	height: 522px;
+}
+
+.lunbo-box .lunbo-pic .item img{
+	width: 100%;
+	height: 522px;
+}
+
+.lunbo-box .carousel-control{
+	width: 30px;
+    height: 50px;
+    line-height: 50px;
+	color: #fff;
+	text-align: center;
+	font-size: 38px;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+	position: absolute;
+	top:190px;
+}
+.banner:hover .carousel-control {
+	display: block;
+}
+.lunbo-box .lt{
+	left: 30px;
+}
+.lunbo-box .rt{
+	right: 30px;
+}
+
+/*产品展示*/
+.product_service {
+	height: 885px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background: #fff;
+}
+
+.product_service .product_service_box {
+	max-width: 1100px;
+    margin: auto;
+    padding-top: 76px;
+}
+
+.product_service .product_service_box h2 {
+	font-size: 30px;
+	padding-bottom: 48px;
+	text-align: center;
+}
+
+.product_service .product_service_box .nav_Product_service {
+    border: none;
+    margin-bottom: 20px;
+}
+.product_service .product_service_box .nav_Product_service li {
+    text-align: center;
+    font-size: 14px;
+    padding: 0px 0px;
+    width: 25%;
+    float: left;
+}
+.product_service .product_service_box .nav-tabs > li.active > a {
+	background: none;
+    border: none;
+    color: #31c17b;
+    width: 100px;
+    margin: auto;
+    border-bottom: 2px solid #31c17b;
+}
+
+.product_service .product_service_box .nav_Product_service li a>i {
+	font-size: 42px;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.product_service .product_service_box .nav_Product_service li a:hover {
+	background: none;
+    border: none;
+}
+
+.product_service .product_service_box .tab-content .waves-attach{
+	position: absolute;top:0px;left: 0;right:0;bottom:0;width:980px;height:516px;margin:auto;
+}
+
+
+
+
+
+
+.software_introduce {
+	width: 100%;
+}
+.software_bgb {
+    transition: .35s;
+    background-color: #7977ef;
+}
+.software_bgb .active {
+	background-color: rgb(121, 119, 239);
+}
+
+.software_introduce_context {
+	max-width: 1100px;
+    margin: auto;
+}
+
+.software_left_navlist {
+	background: rgba(255,255,255,0.1);
+	padding: 0;
+}
+.software_left_navlist ul {
+	width: 100%;
+}
+.software_left_navlist  ul li {
+    overflow: hidden;
+    padding: 0 20px;
+    position: relative;
+}
+
+.software_left_navlist  ul li .software_left_p {
+    padding: 30px 0;
+    position: relative;
+}
+
+.software_left_navlist  ul li .software_left_icon {
+    float: left;
+    font-size: 28px;
+    color: #fff;
+    padding-right: 18px;
+    line-height: 38px;
+    background: red;
+    position: relative;
+    z-index: 1;
+}
+
+.software_left_navlist  ul li .software_lefttitle {
+    color: #ffffff;
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+}
+
+.software_left_navlist  ul li .after {
+    background-color: #7977ef;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 0;
+    transition: all .3s;
+}
+.software_left_navlist  ul li.active .after{
+	 width: 100%;
+}
+
+.border {
+	border-top:1px solid #fff ;
+}
+
+.software_right_mian {
+	height: 400px;
+	display: none;
+}
+.selected {
+	display: block;
+}
+
+.question-way {
+	width: 100%;
+}
+
+
+/*解决方案*/
+.trade_programme {
+	max-width: 1100px;
+    padding: 50px 0;
+    margin: 0px auto;
+    color: #666;
+    text-align: center;
+}
+ .trade_programme .box {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 25px;
+}
+.trade_programme .t1 {
+	font-size: 32px;
+	padding-bottom:20px;
+}
+.trade_programme .t2 {
+	padding-bottom: 48px;
+}
+
+
+.trade_programme .box>li {
+	margin: 0;
+	padding: 0;
+	margin-left: 10px;
+    width: 24%;
+    overflow: hidden;
+}
+.trade_programme .box li .trade_programme_list1 {
+	width: 100%;
+    height: 223px;
+    margin-top: 10px;
+    position: relative;
+}
+.trade_programme .trade_programme_list1 .trade_programme_icon {
+	height: 223px;
+    width: 100%;
+    position: relative;
+}
+.trade_programme .trade_programme_list1 .trade_programme_icon img{
+	height: 223px;
+    width: 100%;
+    background: red;
+}
+
+.trade_programme .trade_programme_list1 .trade_programme_icon span {
+    display: block;
+    width: 100%;
+    background: rgba(51,51,51,0.5);
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 170px;
+    color: #fff;
+}
+
+.trade_programme .box li .trade_programme_list1 .trade_programme_text1 {
+	width: 100%;
+    height: 223px;
+    background: rgba(51,51,51,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 242px;
+    color: #fff;
+    overflow: hidden;
+}
+.trade_programme .box li .trade_programme_list1:hover .trade_programme_text1 {
+	top:0px;
+	transition: all .3s;
+}
+.trade_programme .box li .trade_programme_list1:hover .trade_programme_icon span {
+	display: none;
+}
+
+
+.trade_programme .box li .trade_programme_list1 .trade_programme_text1 span {
+    display: block;
+    padding-top: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.trade_programme .box li .trade_programme_list2 {
+    height: 360px;
+    z-index: 0;
+    margin-top: 10px;
+    background: pink;
+    position: relative;
+}
+.trade_programme .box li .trade_programme_list2 .trade_programme_icon2 {
+	width: 100%;
+	 height: 360px;
+}
+.trade_programme .box li .trade_programme_list2 .trade_programme_icon2 span {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    background: rgba(51,51,51,0.5);
+    font-weight: 500;
+    padding-left: 16px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 307px;
+    color: #fff;
+}
+
+
+.trade_programme .box li .trade_programme_list2 .trade_programme_text2 {
+    height: 360px;
+    width: 100%;
+    padding: 20px;
+    background: rgba(51,51,51,0.5);
+    font-size: 16px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 370px;
+    color: #fff;
+    overflow: hidden;
+    transition: 0.35s;
+    
+}
+
+.trade_programme .box li .trade_programme_list2:hover .trade_programme_text2 {
+	top:0px;
+	transition: all .3s;
+}
+.trade_programme .box li .trade_programme_list2:hover .trade_programme_icon2 span {
+	display: none;
+}
+
+
+
+/*动态*/
+
+.dongtai-list{
+	width: 100%;
+    background: #fff;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    overflow: hidden;
+}
+.dongtai-list .box {
+	max-width: 1100px;
+    margin: auto;
+}
+
+.dongtai-list .box .list_left {
+	border-right: 1px dashed #dcdcdc;
+    margin-right: 29px
+}
+.dongtai-list .box .list_left .list_box {
+	   padding-right: 29px;
+}
+
+.dongtai-list .box h4 {
+	padding: 10px 0;
+}
+.dongtai-list .box  .title_conter {
+    color: #cccccc;
+    width: 100%;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.dongtai-list .box .more_conter {
+    float: right;
+}
+
+.dongtai-list .box .more_conter a {
+    color: #31C47B;
+}
+
+.dongtai-list .box ul li {
+    width: 100%;
+    overflow: hidden;
+    line-height: 30px;
+    padding-right: 8px;
+}
+
+.dongtai-list .box ul li a {
+	/*display: inline-block;
+	width: 80%;*/
+	color: #888888;
+    text-decoration: none;
+   	font-size: 14px;
+   	/*white-space: nowrap;
+	overflow: hidden; 
+	text-overflow: ellipsis;*/
+}
+.dongtai-list .box ul>li>a .news_img {
+    float: left;
+    width: 80%;
+}
+
+.dongtai-list .box ul>li>a .news_img img {
+    width: 34%;
+    height: 78px;
+    float: left;
+}
+.dongtai-list .box ul>li>a .news_img .new_text {
+	float: left;
+	width: 55%;
+    line-height: 23px;
+    padding-top: 5px;
+    padding-left: 2%;
+    white-space: nowrap;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+.dongtai-list .box ul>li>a>p {
+	float: left;
+	width: 75%;
+    line-height: 23px;
+    white-space: nowrap;
+	overflow: hidden; 
+	text-overflow: ellipsis;
+}
+
+.dongtai-list .box ul>li>a>span {
+    float: right;
+    font-size: 14px;
+}
+
+
+.dongtai-list .box .list .list_top_news {
+    padding-bottom: 15px;
+}
+
+.dongtai-list .box .list .list_bottom {
+    padding-top: 15px;
+    border-top: 1px #dcdcdc dashed;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 30px;
+    background: #3f4551;
+    overflow: hidden;
+}
+
+.footer .box {
+    max-width: 1100px;
+    margin: auto;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.footer .more_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer .more_list li:nth-child(1) {
+    color: #fff;
+}
+
+.footer .more_list li {
+    height: 33px;
+    line-height: 33px;
+    display: block;
+}
+
+.footer .more_list li a {
+	font-size: 14px;
+    color: #81878c;
+    text-decoration: none;
+}
+
+.footer .imgbox {
+    width: 126px;
+    margin: auto;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.footer .explain {
+	border-top:1px solid #fff;
+    text-align: center;
+    height: 100px;
+    color: #81878c;
+    font-size: 14px;
+}
+
+.footer .explain p:nth-child(1) {
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+}
+
+.footer .more_list li .iconfont {
+    width: 220px;
+    font-family: "iconfont" !important;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    margin: auto;
+    display: block;
+    line-height: 45px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+		<meta name="description" content="中国医学科学院皮肤病研究所" />
+		<meta name="keywords" content="中国医学科学院皮肤病研究所" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link type="text/css" rel="stylesheet" href="css/login.css" />
+		<script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+
+		<div class="main-box">
+			<div class="header">
+				<div class="login" style="">
+					<div class="bottom" style="padding-top: 32px;">
+						<a href="/Login" class="anmtin anmtin2 bgrels">商户登录</a>
+						<a href="/Register" class="anmtin anmtin2">免费注册</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="bg_reibox">
+				<div class="main row">
+					<div class="col-md-12 col-sm-12 col-xs-12" style="margin: 0; padding: 0;">
+						<section id="loginForm" style="text-align:left;">
+							<form action="/Register.html" class="form-horizontal" method="post" role="form"><input name="__RequestVerificationToken" type="hidden" value="Saav-mRlUOhmvLdtIUEX-jIG7dhv8AzR_3y4ZcJn5B8ARDQ29wfYWt3WDU98IdqkAGoORw6Kro-XFRCBRJh_iTjc-wNZqkaJjkLY0BCInn81">
+								<h4 style="text-align: center; padding: 28px 0;color:#000;font-weight: 500;font-size: 20px;">创建新帐户</h4>
+								
+								 <div class="form-group">
+									    <div class="col-md-12 col-sm-12 col-xs-12 ">
+									      <input type="text" class="form-control" id="phone" placeholder="手机号码">
+									    </div>
+								  </div>
+								  <div class="form-group">
+									    <div class="col-md-12 col-sm-12 col-xs-12 ">
+									      <input type="text" class="form-control" id="password" placeholder="请设置登入密码">
+									    </div>
+								  </div>
+								
+								<div class="form-group">
+									    <div class="col-md-12 col-sm-12 col-xs-12 " style="position: relative;">
+									      <input type="text" class="form-control" id="imgCode" placeholder="请输入图片验证码">
+										  <img id="valiCode" style="width:95px;height: 30px;cursor: pointer;right: 3px;left: inherit;top: 2px;" class="col-md-2 col-sm-2 col-xs-2 control-label" src="imgs/ValidateCode.png" alt="验证码">
+									    </div>
+								 </div>
+								
+						
+								<div class="form-group">
+									<div class="col-md-9 col-sm-9 col-xs-9 ">
+										<input class="form-control " id="sendCode" name="sendCode" placeholder="输入手机验证码" type="password">
+										<!--<input class="col-md-3 col-sm-3 col-xs-9 control-label" maxlength="6" style="width:28%; text-align:right; height: 40px;line-height: 32px; cursor: pointer;right: 0px;left: inherit; top: 0px;border:none;background:#fff;color:#30c17b;outline: none;" type="button" id="getCodemsg">-->
+										<input class="control-label" maxlength="6" style="width:96px;line-height: 32px;left: inherit; top: 0px;right: -82px;text-align: center;color: #30c17b; border-radius: 4px;" type="button" id="getCode" value="点击获取验证码">
+										
+									</div>
+
+									
+								</div>
+								
+								<div class="form-group" style="font-size: 14px; padding-left: 20px;">
+									<input id="chkAgreeLicense" type="checkbox" value="true" checked="checked">我接受并同意用户协议
+									<a href="javascript:;" target="_blank" style="color: #337ab7;">《服务条款》 </a>和
+									<a href="javascript:;" target="_blank" style="color: #337ab7;"> 《私隐条款》</a>
+								</div>
+								<div class="form-group" style="border-bottom:none;padding-top:10px;">
+									<div class="col-md-offset-2 col-md-12 col-sm-12 col-xs-12" style="text-align:center; margin: 0;">
+										<a href="javascript:void(0);" id="UserRegister" class="btn btn-default" value="">注册</a>
+									</div>
+								</div>
+								
+							</form>
+						</section>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		</div>
+	</body>
+
+</html>

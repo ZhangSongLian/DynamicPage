@@ -1,0 +1,113 @@
+.page-main {width: 100%;overflow: hidden;}
+.page-content {width: 1920px;position: relative;left: 50%;margin-left: -960px;}
+.page-content img {width: 100%;}
+.relative{position: relative;}
+.page-content .opt{display:inline-block;cursor:pointer; position:absolute;}
+.part1 .opt {width: 486px;height: 106px;left:716px;bottom: 45px;}
+.part2 .opt {width: 264px;height: 66px;left:828px;bottom: 235px;}
+ .page-content .t>img{width: initial;background: none;}
+.part2 .t {width: 1122px;height: 214px;position: absolute;left: 419px;top: 190px;text-align: center;}	
+
+.part3 {width: 100%;height: 1157px;
+	background: url('https://cdn.gmzx.com/images/gmzx/zt-item/2019/Anniversary/part3.jpg') no-repeat center;
+	background-size: 100% 100%;
+}
+.part3 .opt {width: 438px;height: 93px;left:740px;top: 362px;}
+.part3 .t {width: 555px;height: 253px;position: absolute;left: 682px;top: 44px;text-align: center;}	
+.part4 {width: 100%;height: 300px;text-align: center;
+	background: url('https://cdn.gmzx.com/images/gmzx/zt-item/2019/Anniversary/part4_01.jpg') no-repeat center;
+}
+.part4>img {width: initial;background: none;}
+
+.items-part {width: 100%;height: 1662px;
+	background: url('https://cdn.gmzx.com/images/gmzx/zt-item/2019/Anniversary/part4_02.jpg') no-repeat center;
+	background-size: 100% 100%;
+}
+.items-part .items {width: 1200px;margin: 0 auto;}
+.flexs {display: flex;flex-wrap: wrap;justify-content: space-between;}
+.items-part .items .ullist1 li {width: 380px;height: 528px;margin-bottom: 33px;}
+.items-part .items .ullist2 li {width: 289px;height: 508px;}
+
+
+.items-part .items ul li .item-content {width: 100%;height: 447px;background: #fff;border-radius: 18px;display: flex;
+	flex-direction: column;justify-content: center;align-items: center;	}
+.items-part .items ul li .item-content img {width: initial;}
+.items-part .items ul li .item-content h2 {font-size: 38px;font-weight: 600;}
+.items-part .items ul li .item-content .price {width: 250px;height: 78px;position: relative;text-align: right;}
+.items-part .items ul li .item-content .price span{position: absolute;left: 5px;top: 37px;	
+	display: inline-block;width: 85px;line-height: 38px;font-size: 20px;background: #ffcd56;text-align: center;border-radius: 28px;
+}
+.items-part .items ul li .item-content .price strong {font-size: 68px;color: #fb1222;}
+.items-part .items ul li .buy-btn {width: 100%;line-height: 80px;background: #f3b74e;font-size: 32px;font-weight: 600;
+	color: #b9111d;border-radius: 18px;box-shadow: 0px 8px 5px #580106;border: none;
+}
+.part5 {width: 100%;height: 1477px;
+	/*background: url('https://cdn.gmzx.com/images/gmzx/zt-item/2019/Anniversary/part5.jpg') no-repeat center;
+	background-size: 100% 100%;*/
+}
+.part5 .tebieli {position: absolute;top: 260px;right:360px;width: 797px;height: 984px;}
+.part5 .tebieli ul li {width: 100%;height: 120px;border-radius: 22px;
+	background: url('https://cdn.gmzx.com/images/gmzx/zt-item/2019/Anniversary/tebieli_bn.png') no-repeat center;
+	background-size: 100% 100%;display: flex;justify-content: space-around;align-items: center;margin-bottom: 20px;}
+.part5 .tebieli ul li h4 {
+	width: 376px;
+	font-size: 32px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+}
+.part5 .tebieli ul li h2 {
+	width: 320px;
+	font-size:88px;
+	font-weight: 600;
+	color: #fb1222;
+	text-align: left;
+}
+.part5 .opt {width: 385px;height: 104px;right:562px;bottom:78px;}
+.expert-center {
+	width: 100%;
+	height: 1000px;
+	background: url('https://cdn.gmzx.com/images/gmzx/zt-item/2019/Anniversary/part6_02.jpg') no-repeat center;
+	background-size: 100% 100%;
+}
+.expert-center ul {
+	margin: 0 auto;
+	width: 1200px;
+}
+.expert-center ul li {
+	width: 380px;
+	height: 415px;
+	padding-top: 25px;
+	margin-bottom: 65px;
+	background: red;
+	text-align: center;
+	background: #fff;
+	border-radius: 18px;
+}
+.expert-center ul li img {
+	width: initial;
+}
+.expert-center ul li h2 {
+	font-size: 28px;
+	font-weight: 600;
+	padding: 10px 0;
+}
+.expert-center ul li p {
+	color: #fb1222;
+	font-size: 22px;
+}
+.expert-center ul li .buy-btn {
+	width: 233px;
+	line-height: 80px;
+	background: #f3b74e;
+	font-size: 32px;
+	font-weight: 600;
+	color: #b9111d;
+	border-radius: 38px;
+	box-shadow: 0px 8px 5px #730108;
+	margin-top: 22px;
+	border: none;
+}
+.part6 .opt {width: 625px;height: 102px;right: 642px;bottom: 95px;}
+.part7 .opt {width: 802px;height: 106px;right:557px;bottom:88px;}
+

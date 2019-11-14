@@ -1,0 +1,194 @@
+.main-box {
+	width: 100%;
+	background: #fff;
+}
+.main-box .header {
+	max-width: 1100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.main-box .header .login {
+	width: 210px;
+	height: 100px;
+    float: right;
+}
+
+.main-box .header .login .bottom .anmtin {
+    display: block;
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #c7d4da;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    font-size: 14px;
+}
+.main-box .header .login .bottom .bgrels {
+    color: #fff;
+    background: #30c17c;
+}
+
+.bglogin {
+	width: 100%;
+	height: 500px;
+    overflow: hidden;
+    position: relative;
+  	background: url('https://cdn.gmzx.com/images/public/pcBanner/2019/meibizhengji2019Pc.jpg') no-repeat center;
+   	background-size: 100% 100%;
+}
+
+.bglogin .terbox {
+	background: #fff;
+    display: block;
+    /*float: right;*/
+    height: 435px;
+    margin-top: 30px;
+    width: 336px;
+    border-radius: 5px;
+    position: absolute;
+    right: 200px;
+    z-index: 1;
+}
+
+.bglogin .terbox .txgg {
+    font-size: 18px;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+.bglogin .terbox ul {
+    height: 116px;
+    width: 100%;
+}
+
+.bglogin .terbox ul li {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+.bglogin .terbox ul li .posila {
+    position: absolute;
+    left: 34px;
+    top: 25px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+.bglogin .terbox ul li .txt{
+    height: 39px;
+    line-height: 39px;
+    width: 284px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #b3b3b3;
+    float: left;
+    margin-left: 25px;
+    margin-top: 16px;
+    font-size: 15px;
+    outline: none;
+    padding-left: 35px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.bglogin .terbox ul li .passwordimg {
+	width:95px;
+	height: 30px;
+	position:absolute;
+	right:28px;top:18px;
+}
+
+.bglogin .terbox ul .lotbtn>a {
+    width: 85%;
+    display: block;
+    background: #25ba5e;
+    color: #fff;
+    text-align: center;
+    padding: 13px 0;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    transition: all .25s;
+}
+
+.bglogin .terbox ul .lascn {
+    width: 320px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.bglogin .terbox ul .lascn a:first-child {
+    margin-left: 25px;
+    float: left;
+}
+
+.bglogin .terbox ul .lascn a:last-child {
+    float: right;
+}
+
+/*注册*/
+.bg_reibox {
+	width: 100%;
+	height: 590px;
+	margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background: url('https://cdn.gmzx.com/images/public/pcBanner/2019/meibizhengji2019Pc.jpg') no-repeat center;
+   	background-size: 100% 100%;
+}
+.bg_reibox .main {
+	max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+}
+.bg_reibox .main #loginForm {
+    max-width: 500px;
+    margin: auto;
+}
+
+.bg_reibox .main #loginForm .form-horizontal {
+    background: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    width: 396px;
+    margin-left: 50px;
+    padding-bottom: 40px;
+}
+
+
+.form-horizontal .control-label {
+    position: absolute;
+    left: 0px;
+    top: -7px;
+    text-align: left;
+    width: 74px;
+    padding-top: 0px;
+}
+
+#UserRegister {
+    width: 80%;
+    height: 40px;
+    line-height: 34px;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    display: inline-block;
+    color: #fff;
+    background: #30c17c;
+    outline: none;
+}
+
+
